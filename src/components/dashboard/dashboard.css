@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.dashboard{
+    height: 80vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+
+    
+}
+
+.dashOption{
+    margin-top: 80%;
+    border-style: double;
+    height: 20vh;
+    width: 40vh;
+    background-color: darkgrey;
+    
+}
