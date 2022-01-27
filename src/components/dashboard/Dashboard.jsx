@@ -1,6 +1,6 @@
 import './dashboard.css';
 import Buttons from './sides';
-import MainTabs from './mainComp';
+// import MainTabs from './mainComp';
 
 export default function Dashboard(){
     return(
@@ -17,10 +17,10 @@ export default function Dashboard(){
                 <Buttons title="Settings"/>
             </aside>
             <main>
-                <MainTabs/>
-                {/* <div className="dashOption">Add Vehicle</div>
-                <div className="dashOption">Update Gas/Milage</div>
-                <div className="dashOption">Reports</div> */}
+                {/* <MainTabs/> */}
+                <div className="dashOption" id="mTop">Add Vehicle</div>
+                <div className="dashOption" id="mMiddle">Update Gas/Milage</div>
+                <div className="dashOption" id="mBottom">Reports</div>
             </main>
         </div>
     )

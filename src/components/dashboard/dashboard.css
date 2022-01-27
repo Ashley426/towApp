@@ -26,24 +26,42 @@
     justify-content: space-between;
 }
 .dashboard main{
-    border: 2px solid lightblue;
+    /* border: 2px solid lightblue; */
     border-radius: 1%;
     margin-right: 1%;
     width: 82%;
     float: right;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .dashOption{
-    border-style: double;
-    height: 10vh;
-    width: 20vh;
-    background-color: darkgrey;
+    /* border: 2px solid lightblue; */
+    background-color: lightblue;
+    border-radius: 1%;
+    height: 30%;
+    width: 80%;
+}
+
+#mTop,
+#mMiddle,
+#mBottom{
+    position: relative;
+}
+
+#mTop,
+#mBottom{
+    right: 100px;
+}
+
+#mMiddle{
+    left: 100px;
 }
 
 .outerBox{
-    border-top: 2px dotted lightcyan;
+    /* border-top: 2px dotted lightcyan; */
     border-bottom: 2px lightcyan dotted;
     margin-top: 1%;
     height: 15%;
