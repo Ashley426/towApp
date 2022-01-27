@@ -42,22 +42,7 @@
     background-color: lightblue;
     border-radius: 1%;
     height: 30%;
-    width: 80%;
-}
-
-#mTop,
-#mMiddle,
-#mBottom{
-    position: relative;
-}
-
-#mTop,
-#mBottom{
-    right: 100px;
-}
-
-#mMiddle{
-    left: 100px;
+    width: 95%;
 }
 
 .outerBox{
