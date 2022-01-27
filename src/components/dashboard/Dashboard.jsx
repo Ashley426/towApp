@@ -11,16 +11,17 @@ export default function Dashboard(){
             <aside>
                 <Buttons title="Overview"/>
                 <Buttons title="Company Profile"/>
-                <Buttons title="Service/ Pricing"/>
+                <Buttons title="Service / Pricing"/>
                 <Buttons title="Dispatching Preferences"/>
                 <Buttons title="Impound Preferences"/>
+                <Buttons title="Add Vehical"/>
+                <Buttons title="Update Gas / Milage"/>
+                <Buttons title="Reports"/>
                 <Buttons title="Settings"/>
             </aside>
             <main>
                 {/* <MainTabs/> */}
-                <div className="dashOption" id="mTop">Add Vehicle</div>
-                <div className="dashOption" id="mMiddle">Update Gas/Milage</div>
-                <div className="dashOption" id="mBottom">Reports</div>
+                <div className="dashOption" id="mTop">Information</div>
             </main>
         </div>
     )
