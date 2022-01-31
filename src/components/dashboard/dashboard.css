@@ -1,25 +1,23 @@
 *{
     margin: 0;
-    background-color: lightcyan;
+    background-color: darkblue;
 }
 
-.dashboard header h1{
-    /* border-bottom: 2px solid black; */
-    background-color: lightblue;
-    text-align: left;
-    font-size: 40px;
+#veryTop{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .dashboard aside,
 .dashboard main{
     /* background-color: lightblue; */
     margin-top: 1%;
-    height: 90vh;
+    height: 96vh;
 }
 
 .dashboard aside{
-    margin-left: 0.5%;
-    width: 15%;
+    margin-left: 1%;
+    width: 10%;
     float: left;
     display: flex;
     flex-direction: column;
@@ -27,45 +25,71 @@
 }
 .dashboard main{
     /* border: 2px solid lightblue; */
-    background-color: lightblue;
+    /* background-color: darkblue; */
     border-radius: 1%;
     margin-right: 1%;
-    width: 82%;
+    width: 88%;
     float: right;
+    color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashOption{
+    border: 2px solid lightblue;
+    background-color: lightcyan;
+    border-radius: 1%;
+    height: 95%;
+    width: 97%;
+}
+
+/* .dashOption h1{
+    color: white;
+} */
+
+.outerBox{
+    /* border-top: 2px dotted lightcyan; */
+    /* border-bottom: 2px lightcyan dotted; */
+    margin-top: 1%;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.dashOption{
-    /* border: 2px solid lightblue; */
-    background-color: lightcyan;
-    border-radius: 1%;
-    height: 95%;
-    width: 95%;
-}
 
-.outerBox{
-    /* border-top: 2px dotted lightcyan; */
-    border-bottom: 2px lightcyan dotted;
-    margin-top: 1%;
-    height: 10%;
-    box-sizing: border-box;
-    align-items: center;
-}
-
-.outerBox :hover{
-    cursor: pointer;
-    background-color: lightgray;
-    color: purple;
-}
-.outerBox h3{
+.outerBox button{
+    border: none;
     border-radius: 2%;
-    background-color: lightblue;
-    height: 100%;
+    background-color: lightcyan;
+    height: 10%;
     width: 100%;
     font-size: x-large;
+}
+
+.outerBox button :hover{
+    cursor: pointer;
+    background-color: blue;
+    color: purple;
+}
+
+#lookout{
+    height: 5%;
+    width: 400px;
+}
+
+.overview{
+    height: 95%;
+    width: 98%;
+    background-color: lightcyan;
+    border-radius: 1%;
+    color: white;
 }
 
 .subView{
