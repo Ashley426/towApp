@@ -26,7 +26,7 @@
     /* background-color: darkblue; */
     border-radius: 1%;
     width: 98%;
-    color: lightcyan;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,7 @@
 
 .dashOption{
     border: 2px solid lightblue;
-    background-color: lightcyan;
+    background-color: white;
     border-radius: 1%;
     height: 95%;
     width: 97%;
@@ -47,7 +47,7 @@
 
 .outerBox{
     border-radius: 1%;
-    background-color: lightcyan;
+    background-color: white;
     margin-top: 1%;
     height: 100%;
     width: 100%;
@@ -64,7 +64,7 @@
     border: none;
     border-radius: 2%;
     background-color: darkblue;
-    color: lightcyan;
+    color: white;
     height: 20%;
     width: 30%;
     font-size: x-large;
@@ -84,7 +84,7 @@ button :hover{
 .overview{
     height: 95%;
     width: 98%;
-    background-color: lightcyan;
+    background-color: white;
     border-radius: 1%;
     color: white;
 }
