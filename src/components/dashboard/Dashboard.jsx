@@ -1,13 +1,26 @@
 import './dashboard.css';
+import React from 'react'
+// import {} from ''
+
 
 export default function Dashboard(){
     return(
         <div className="dashboard">
-            <h1>Dashboard</h1>
-            <div className="dashOption">Add Vehicle</div>
-            <div className="dashOption">Update Gas/Milage</div>
-            <div className="dashOption">Reports</div>
-
+            {/* <Search/> */}
+            <main>
+                <h1>DashBoard</h1>
+                <nav className="outerBox">
+                    <button>Overview</button>
+                    <button>Company Profile</button>
+                    <button>Service / Pricing</button>
+                    <button>Dispatching Preferences</button>
+                    <button>Impound Preferences</button>
+                    <button>Add Vehical</button>
+                    <button>Update Gas / Milage</button>
+                    <button>Reports</button>
+                    <button>Settings</button>
+                </nav>
+            </main>
         </div>
     )
 }
